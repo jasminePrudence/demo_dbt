@@ -1,0 +1,1 @@
+select * from {{ source('DST_DB', 'DIM_ALBUM') }}
