@@ -1,0 +1,1 @@
+select * from {{ source('DST_DB', 'FACT_TRACKS') }}

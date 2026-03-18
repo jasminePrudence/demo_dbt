@@ -1,0 +1,15 @@
+
+version: 2
+
+sources:
+  - name: DST_DB
+    database: DST_DB
+    schema: PUBLIC
+    tables:
+      - name: FACT_TRACKS
+      - name: DIM_ALBUM
+      - name: artist
+      - name: DIM_GENRE
+      - name: DIM_MEDIATYPE
+      - name: playlist
+      - name: playlisttrack

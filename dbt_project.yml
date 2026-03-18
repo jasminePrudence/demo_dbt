@@ -34,3 +34,13 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+    # Configuration pour le dossier des tables
+    dst_db:
+      +materialized: table
+      +tags: "table_tag"
+
+    # Configuration pour le dossier des vues
+    views:
+      +materialized: view
+      +tags: "view_tag"
